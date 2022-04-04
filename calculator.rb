@@ -5,8 +5,11 @@ class User
     @calculation = calculation
   end
 
-  puts 'Welcome to the best calculator in the world!'
-  puts "To add type '+', subtract '-', times '*', or divide a number '/', enter the method you wish to use.."
+  puts 'Hello, welcome to the best calculator in the world!'
+  puts 'Enter your name..'
+  name = gets.chomp
+  puts "Hey #{name}!, It's nice to meet you!"
+  puts "For addition type '+', subtractation type '-', multiply type '*', or to divide a number '/'.."
 
   def number_convert
     @user_input = gets.chomp
