@@ -1,1 +1,1 @@
-Create a program that allows a user to calculate digits and see the results
+Basic calculator covering fundamentals: methods, passing and returning values, classes, dependency injection, object creation, string interpolation, local/instance variables, scopes.
